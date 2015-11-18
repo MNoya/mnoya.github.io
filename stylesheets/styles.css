@@ -534,7 +534,7 @@ body {
   font: 14px/1.5 "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #f0e7d5;
   font-weight: normal;
-  background: #181818;
+  background: #101010;
   background-attachment: fixed !important;
 }
 
@@ -675,10 +675,11 @@ td {
 }
 
 hr {
-  border: 0;
-  outline: none;
-  height: 3px;
-  background: transparent url("../images/hr.gif") center center repeat-x;
+  border: 1;
+  //outline: none;
+  //height: 3px;
+  //background: transparent url("../images/hr.gif") center center repeat-x;
+  border-bottom: 1px solid #222222;
   margin: 0 0 20px;
 }
 
@@ -913,16 +914,16 @@ ul.rig li {
   display: inline-block;
   padding: 10px;
   margin: 0 0 2.5% 2.5%;
-  background-color:rgba(200,200,200,0.1);
-  border: 1px solid #ddd;
+  background-color:rgba(200,200,200,0.05);
+  //border: 1px solid #ddd;
   font-size: 16px;
   font-size: 1rem;
   vertical-align: top;
-  box-shadow: 0 0 5px #ddd;
+  //box-shadow: 0 0 5px #ddd;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  border-radius: 10px;
+  border-radius: 4px;
 }
 ul.rig li img {
   max-width: 100%;
